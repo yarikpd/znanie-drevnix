@@ -14,6 +14,12 @@
 #include <iomanip>
 #include <string>
 #include <ctime>
+#include <filesystem>
+#include <sstream>
+#include <vector>
+#include <tuple>
+#include <chrono>
+#include <algorithm>
 
 #define царь_батюшка_главный int main
 #define внедрить using
@@ -82,6 +88,13 @@
 #define младший second
 #define оператор operator
 #define двинуть move
+
+#define файловая Русь::filesystem
+#define время Русь::chrono
+#define поток_стр Русь::ostringstream
+#define вектор Русь::vector
+#define кортеж Русь::tuple
+#define путь_файл файловая::path
 
 #define беда exception
 #define что_случилось what
