@@ -14,6 +14,7 @@
 #include <iomanip>
 #include <string>
 #include <ctime>
+// extra includes for features used by the project
 #include <filesystem>
 #include <sstream>
 #include <vector>
@@ -89,12 +90,15 @@
 #define оператор operator
 #define двинуть move
 
-#define файловая Русь::filesystem
+#define файловная Русь::filesystem
 #define время Русь::chrono
-#define поток_стр Русь::ostringstream
-#define вектор Русь::vector
-#define кортеж Русь::tuple
-#define путь_файл файловая::path
+#define потококлад Русь::ostringstream
+#define векторъ Русь::vector
+#define кортежъ Русь::tuple
+#define шляхъ_файла файловная::path
+
+#define самодвиж auto
+#define строенъ struct
 
 #define беда exception
 #define что_случилось what
